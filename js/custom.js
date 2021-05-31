@@ -182,13 +182,13 @@
     dirc = [0, 1, 2, 3];
     ed = 0;
     vi = 0;
-    // setTimeout(function() {
+    setTimeout(function() {
       if (!fini()) {
         ymir();
       } else {
         theseus();
       }
-    // }, 1);
+    }, 1);
   }
 
   function fini() {
