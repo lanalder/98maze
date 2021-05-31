@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/98.css"
+>
+  <link rel="stylesheet" href="css/custom.css">
+  <title>labyrinth</title>
+</head>
+<body>
+  <canvas id="canvas" width="1010" height="1010"></canvas>
+  <div class="greet-cont">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        Computer Made You a Maze :o)
+      </div>
+      <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+    </div>
+    <div class="window">
+        <p>Build a New One?</p>
+        <section class="field-row" style="justify-content: flex-end">
+          <button onTouchStart="window.location.reload()">OK</button>
+          <button>Nah</button>
+        </section>
+      </div>
+  </div>
+  <div class="btnz">
+    <button type="button" class="btn-u" name="Up">Up</button>
+    <button type="button" class="btn-l" name="Left">Left</button>
+    <button type="button" class="btn-r" name="Right">Right</button>
+    <button type="button" class="btn-d" name="Down">Down</button>
+  </div>
+  <div class="wordart">
+    <img src="img/lol.gif" alt="">
+  </div>
+  <div class="cele">
+    <img src="img/stars.gif" class="invisi win" alt="">
+    <img src="img/stars.gif" class="invisi win1" alt="">
+    <img src="img/stars.gif" class="invisi win2" alt="">
+  </div>
+  <div class="win-cont invisi">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        Wow, You Did It!
+      </div>
+      <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button class="ignore-win" aria-label="Close"></button>
+          </div>
+      </div>
+      <div class="window">
+        <p>I'm Proud of You, Do it Again </p>
+          <section class="field-row" style="justify-content: flex-end">
+            <button onTouchStart="window.location.reload()">OK</button>
+            <button>Nah</button>
+          </section>
+      </div>
+  </div>
+  <script src="js/custom.js" charset="utf-8"></script>
+</body>
+</html>

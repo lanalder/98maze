@@ -1,0 +1,64 @@
+body {
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat;
+}
+#canvas {
+  background-color: white;
+  position: absolute;
+  margin: 1vh 17vw 0vh 20vw;
+}
+.greet-cont {
+  float: right;
+  margin-right: 10vw;
+  margin-top: 10vh;
+}
+.btn-u {
+  bottom: 55vh;
+  right: 12vw;
+  position: absolute;
+}
+.btn-d {
+  position: absolute;
+  bottom: 50vh;
+  right: 12vw;
+}
+.btn-l {
+  position: absolute;
+  bottom: 52.5vh;
+  right: 14vw;
+}
+.btn-r {
+  position: absolute;
+  bottom: 52.5vh;
+  right: 10vw;
+}
+.wordart > img{
+  position: absolute;
+  right: 9vw;
+  top: 29vw;
+  height: 5vh;
+}
+.win {
+  position: absolute;
+  left: 5vw;
+  top: 25vh;
+}
+.win1 {
+  position: absolute;
+  right: 15.5vw;
+  top: 65vh;
+}
+.win2 {
+  position: absolute;
+  right: 3vw;
+  top: 18vh;
+}
+.invisi {
+  display: none;
+}
+.win-cont {
+  position: absolute;
+  z-index: 10;
+  top: 35vh;
+  left: 65vw;
+}
